@@ -1,2 +1,2 @@
-Coloque aqui suas instruções ou comentários que ache útil/relevantes para possamos ler 
-quando estivermos avaliando a sua solução
+rodar com Main da PlayerStatistic passando opcionalmente o arquivo de log como argumento.
+executar o programa sem argumentos por default Ã© lido do arquivo de log game.log existente.

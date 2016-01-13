@@ -2,7 +2,7 @@ package event;
 
 import java.util.Date;
 
-public class WordKillEvent extends Event {
+public class WorldKillEvent extends Event {
 
 	public String getKilled() {
 		return killed;
@@ -23,7 +23,7 @@ public class WordKillEvent extends Event {
 	private String killed;
 	private String reason;
 
-	public WordKillEvent(Date d, String[] split) {
+	public WorldKillEvent(Date d, String[] split) {
 		this.killed = split[2];
 		this.reason = split[4];
 	}
